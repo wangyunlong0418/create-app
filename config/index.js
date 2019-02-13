@@ -1,6 +1,6 @@
 const config = {
   baseUrl: 'https://api.github.com',
-  orgName: 'luxixi-projects',
+  orgName: 'create-app-template',
 };
 
 
