@@ -86,7 +86,6 @@ class Install {
         .on('end', () => {
           const app = basename(appDir);
           this.app = app;
-          console.log(appDir);
           this.package(appDir);
         });
     });
