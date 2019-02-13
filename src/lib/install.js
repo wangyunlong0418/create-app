@@ -31,8 +31,6 @@ class Install {
   }) {
     const options = params || [];
 
-    console.log(cwd, 1111);
-
     const runner = spawn(cmd, options, {
       cwd,
       stdio: 'inherit',
